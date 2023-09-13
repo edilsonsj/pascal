@@ -17,3 +17,13 @@ Exemplo:
 var
   numeros: array[1..10] of Integer; // Array de 10 inteiros
 ```
+
+##Acessando Elementos de um Array
+
+Os elementos de um array são acessados usando seu índice entre colchetes.
+
+Exemplo:
+
+```pascal
+writeln(numeros[3]); // Acessa o terceiro elemento do array
+```
