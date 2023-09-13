@@ -53,3 +53,10 @@ begin
   writeln(numeros[i]);
 end;
 ```
+## Manipulando Arrays
+
+**Inserir Elementos**: Em Pascal, os arrays são estáticos, então você não pode inserir ou remover elementos como faria em estruturas de dados dinâmicas. Você precisaria criar um novo array com o tamanho desejado e copiar os elementos do array original.
+
+**Remover Elementos**: Para "remover" elementos, você pode marcar o elemento como inválido, usando um valor específico como -1 para indicar a remoção, ou criar uma nova matriz excluindo os elementos que deseja remover.
+
+**Encontrar Elementos**: Você pode usar loops para percorrer o array e encontrar elementos com base em critérios específicos.
