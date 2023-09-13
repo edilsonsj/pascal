@@ -18,7 +18,7 @@ var
   numeros: array[1..10] of Integer; // Array de 10 inteiros
 ```
 
-##Acessando Elementos de um Array
+## Acessando Elementos de um Array
 
 Os elementos de um array são acessados usando seu índice entre colchetes.
 
@@ -26,4 +26,30 @@ Exemplo:
 
 ```pascal
 writeln(numeros[3]); // Acessa o terceiro elemento do array
+```
+
+## Preenchendo um Array
+
+Você pode atribuir valores aos elementos de um array individualmente ou usar loops para preenchê-lo.
+
+Exemplo:
+
+```pascal
+for i := 1 to 10 do
+begin
+  numeros[i] := i * 2;
+end;
+```
+
+## Iterando um Array
+
+Você pode usar loops for ou while para iterar pelos elementos de um array.
+
+Exemplo:
+
+```pascal
+for i := 1 to 10 do
+begin
+  writeln(numeros[i]);
+end;
 ```
