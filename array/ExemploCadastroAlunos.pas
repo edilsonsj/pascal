@@ -1,3 +1,8 @@
+// Crie um programa em Pascal que permita ao usuário cadastrar informações de alunos, 
+// incluindo apenas o nome e o curso. O programa deve armazenar essas informações em 
+// um array de strings e, em seguida, exibir os dados de todos os alunos cadastrados.
+
+
 program ExemploCadastroAlunos;
 var
   numAlunos, i: Integer;
