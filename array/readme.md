@@ -60,3 +60,36 @@ end;
 **Remover Elementos**: Para "remover" elementos, você pode marcar o elemento como inválido, usando um valor específico como -1 para indicar a remoção, ou criar uma nova matriz excluindo os elementos que deseja remover.
 
 **Encontrar Elementos**: Você pode usar loops para percorrer o array e encontrar elementos com base em critérios específicos.
+
+
+## Array de `Char` (caracteres)
+
+Um array de char em Pascal é uma estrutura que armazena uma sequência de caracteres individuais. Cada elemento do array é do tipo `Char`.
+
+**Exemplo de declaração:**
+
+```pascal
+var
+  caracteres: array[1..5] of Char;
+```
+
+- **Manipulação**: Você pode acessar e manipular caracteres individuais no array usando índices.
+- **Tamanho Fixo**: O tamanho do array de char é fixo e definido durante a declaração.
+- **Uso Comum**: É útil para armazenar palavras, iniciais ou caracteres individuais.
+
+## Array de String 
+
+Um array de string em Pascal é uma estrutura que armazena uma sequência de caracteres, representando uma cadeia de texto. Cada elemento do array é do tipo `String`.
+
+**Exemplo de declaração:**
+
+```pascal
+var
+  nomes: array[1..3] of String;
+```
+
+- **Manipulação**: Você pode acessar e manipular strings completas no array usando índices.
+- **Tamanho Fixo**: O tamanho do array de string é fixo e definido durante a declaração.
+- **Uso Comum**: É usado para armazenar palavras, frases, nomes, ou qualquer texto.
+
+Ambos os tipos de arrays são fundamentais para armazenar e manipular dados de caracteres e strings em Pascal. Eles são usados em uma variedade de situações, desde armazenar nomes de alunos até manipular texto em programas.
