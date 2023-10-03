@@ -1,4 +1,4 @@
-program EncontrarMaiorMenorNota;
+program MaiorMenorNota;
 var
 notas: array[1..5] of Integer; // Array de notas
 i, maior, menor: Integer;
