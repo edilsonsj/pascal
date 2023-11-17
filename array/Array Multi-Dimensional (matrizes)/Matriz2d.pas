@@ -9,7 +9,7 @@ begin
     begin
       for j := 1 to 4 do 
       begin
-        num[i, j] := i + j;
+        num[i, j] := i * j;
       end;
     end;
 
